@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DianaDju/Kanban_board/static/css/main.5605108d.css",
-    "main.js": "/DianaDju/Kanban_board/static/js/main.067a5624.js",
+    "main.js": "/DianaDju/Kanban_board/static/js/main.073edc69.js",
     "index.html": "/DianaDju/Kanban_board/index.html",
     "main.5605108d.css.map": "/DianaDju/Kanban_board/static/css/main.5605108d.css.map",
-    "main.067a5624.js.map": "/DianaDju/Kanban_board/static/js/main.067a5624.js.map"
+    "main.073edc69.js.map": "/DianaDju/Kanban_board/static/js/main.073edc69.js.map"
   },
   "entrypoints": [
     "static/css/main.5605108d.css",
-    "static/js/main.067a5624.js"
+    "static/js/main.073edc69.js"
   ]
 }
