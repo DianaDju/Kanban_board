@@ -1,0 +1,84 @@
+.list {
+  background-color: #ebecf0;
+  border-radius: 10px;
+  width: 280px;
+  min-width: 280px;
+  padding: 12px;
+  color: #000;
+}
+
+.list-title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+  cursor: pointer;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.add-card-btn {
+  background: none;
+  border: none;
+  color: #5e6c84;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.add-card-btn:hover {
+  background-color: #dadbe2;
+}
+
+.add-card-btn:disabled {
+  background-color: transparent;
+  color: #a5adba;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.add-card-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+/* Стили для поля ввода */
+.input-task {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #0079bf;
+  border-radius: 3px;
+  outline: none;
+}
+
+/* Стили для синей кнопки Submit */
+.submit-btn {
+  background-color: #0079bf;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Эффект при наведении на кнопку Submit */
+.submit-btn:hover {
+  background-color: #0067a3;
+}

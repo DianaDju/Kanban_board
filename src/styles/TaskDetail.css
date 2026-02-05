@@ -1,0 +1,29 @@
+.detail-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  min-height: 400px;
+  position: relative;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  font-size: 40px;
+  text-decoration: none;
+  color: #5e6c84;
+}
+
+.detail-description {
+  width: 100%;
+  min-height: 200px;
+  border: none;
+  font-size: 18px;
+  resize: vertical;
+  outline: none;
+}

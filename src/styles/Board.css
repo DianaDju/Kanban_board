@@ -1,0 +1,21 @@
+.board {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 415px) {
+  .board {
+    flex-direction: column;
+    padding: 20px 12px;
+    gap: 16px;
+  }
+
+  .list {
+    width: 100%;
+    max-width: none;
+  }
+}

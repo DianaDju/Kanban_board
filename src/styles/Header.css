@@ -1,0 +1,92 @@
+.header {
+  background-color: #0067a3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  height: 60px;
+  position: relative;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.user-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+}
+
+.avatar span {
+  font-size: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Выпадающее меню */
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: -10px;
+  background-color: white;
+  border-radius: 5px;
+  width: 150px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-pointer {
+  position: absolute;
+  top: -8px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid white;
+}
+
+.dropdown-list {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.dropdown-item {
+  padding: 8px 20px;
+  color: #000;
+  font-size: 14px;
+}
+
+.dropdown-list li:hover {
+  background-color: #ebecf0;
+}
+
+@media (max-width: 415px) {
+  .header {
+    padding: 10px 15px;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .avatar img {
+    width: 32px;
+    height: 32px;
+  }
+}
