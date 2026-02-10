@@ -13,8 +13,6 @@ function App() {
   const [tasks, setTasks] = useState<ITask[]>(() => {
     const savedTasks = localStorage.getItem("tasks");
 
-    // Если savedTasks === null, значит это самый первый запуск — берем mockTasks.
-    // Если там лежит даже пустой массив [], savedTasks !== null, и мы берем данные из хранилища.
     return savedTasks !== null ? JSON.parse(savedTasks) : mockTasks;
   });
 
