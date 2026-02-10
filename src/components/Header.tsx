@@ -11,7 +11,11 @@ const Header = () => {
 
       <div className="user-menu" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         <div className="avatar">
-          <img className="avatar-img" src="/user-avatar.svg" alt="User" />
+          <img
+            className="avatar-img"
+            src={process.env.PUBLIC_URL + "/user-avatar.svg"}
+            alt="User"
+          />
           {/* Стрелочка меняется в зависимости от состояния isMenuOpen */}
           <span>{isMenuOpen ? "▲" : "▼"}</span>
         </div>

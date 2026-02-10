@@ -7,15 +7,15 @@
   padding-bottom: 10px;
 }
 
-@media (max-width: 415px) {
+/* Магия адаптива */
+@media (max-width: 480px) {
   .board {
-    flex-direction: column;
-    padding: 20px 12px;
-    gap: 16px;
+    flex-direction: column; /* Колонки в столбик */
+    align-items: center;
+    width: 100%;
   }
 
   .list {
-    width: 100%;
-    max-width: none;
+    width: 90%; /* Почти на всю ширину экрана */
   }
 }
